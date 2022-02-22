@@ -1,0 +1,1981 @@
+[ { "teamId": "1610612737"
+  , "name": "Atlanta"
+  , "nickname": "Hawks"
+  , "teamcode": "hawks"
+  , "abbreviation": "ATL"
+  , "min":
+    { "avg": "48.0"
+    , "rank": "28"
+    }
+  , "fgp":
+    { "avg": "0.47"
+    , "rank": "6"
+    }
+  , "tpp":
+    { "avg": "0.38"
+    , "rank": "1"
+    }
+  , "ftp":
+    { "avg": "0.80"
+    , "rank": "6"
+    }
+  , "orpg":
+    { "avg": "9.7"
+    , "rank": "21"
+    }
+  , "drpg":
+    { "avg": "34.6"
+    , "rank": "14"
+    }
+  , "trpg":
+    { "avg": "44.2"
+    , "rank": "20"
+    }
+  , "apg":
+    { "avg": "24.3"
+    , "rank": "14"
+    }
+  , "tpg":
+    { "avg": "12.3"
+    , "rank": "30"
+    }
+  , "spg":
+    { "avg": "6.8"
+    , "rank": "28"
+    }
+  , "bpg":
+    { "avg": "4.3"
+    , "rank": "23"
+    }
+  , "pfpg":
+    { "avg": "18.3"
+    , "rank": "26"
+    }
+  , "ppg":
+    { "avg": "111.8"
+    , "rank": "7"
+    }
+  , "oppg":
+    { "avg": "111.6"
+    , "rank": "7"
+    }
+  , "eff":
+    { "avg": "+0.20"
+    , "rank": "16"
+    }
+  }
+, { "teamId": "1610612738"
+  , "name": "Boston"
+  , "nickname": "Celtics"
+  , "teamcode": "celtics"
+  , "abbreviation": "BOS"
+  , "min":
+    { "avg": "48.7"
+    , "rank": "2"
+    }
+  , "fgp":
+    { "avg": "0.45"
+    , "rank": "22"
+    }
+  , "tpp":
+    { "avg": "0.34"
+    , "rank": "22"
+    }
+  , "ftp":
+    { "avg": "0.82"
+    , "rank": "2"
+    }
+  , "orpg":
+    { "avg": "10.7"
+    , "rank": "10"
+    }
+  , "drpg":
+    { "avg": "35.6"
+    , "rank": "5"
+    }
+  , "trpg":
+    { "avg": "46.3"
+    , "rank": "4"
+    }
+  , "apg":
+    { "avg": "23.2"
+    , "rank": "20"
+    }
+  , "tpg":
+    { "avg": "14.1"
+    , "rank": "13"
+    }
+  , "spg":
+    { "avg": "7.2"
+    , "rank": "21"
+    }
+  , "bpg":
+    { "avg": "5.9"
+    , "rank": "2"
+    }
+  , "pfpg":
+    { "avg": "18.8"
+    , "rank": "22"
+    }
+  , "ppg":
+    { "avg": "108.0"
+    , "rank": "19"
+    }
+  , "oppg":
+    { "avg": "104.4"
+    , "rank": "27"
+    }
+  , "eff":
+    { "avg": "+3.60"
+    , "rank": "7"
+    }
+  }
+, { "teamId": "1610612739"
+  , "name": "Cleveland"
+  , "nickname": "Cavaliers"
+  , "teamcode": "cavaliers"
+  , "abbreviation": "CLE"
+  , "min":
+    { "avg": "48.0"
+    , "rank": "28"
+    }
+  , "fgp":
+    { "avg": "0.46"
+    , "rank": "9"
+    }
+  , "tpp":
+    { "avg": "0.35"
+    , "rank": "17"
+    }
+  , "ftp":
+    { "avg": "0.75"
+    , "rank": "24"
+    }
+  , "orpg":
+    { "avg": "10.3"
+    , "rank": "14"
+    }
+  , "drpg":
+    { "avg": "34.9"
+    , "rank": "12"
+    }
+  , "trpg":
+    { "avg": "45.2"
+    , "rank": "11"
+    }
+  , "apg":
+    { "avg": "25.5"
+    , "rank": "7"
+    }
+  , "tpg":
+    { "avg": "14.9"
+    , "rank": "3"
+    }
+  , "spg":
+    { "avg": "7.1"
+    , "rank": "22"
+    }
+  , "bpg":
+    { "avg": "4.3"
+    , "rank": "24"
+    }
+  , "pfpg":
+    { "avg": "16.9"
+    , "rank": "30"
+    }
+  , "ppg":
+    { "avg": "106.7"
+    , "rank": "23"
+    }
+  , "oppg":
+    { "avg": "102.4"
+    , "rank": "30"
+    }
+  , "eff":
+    { "avg": "+4.20"
+    , "rank": "4"
+    }
+  }
+, { "teamId": "1610612740"
+  , "name": "New Orleans"
+  , "nickname": "Pelicans"
+  , "teamcode": "pelicans"
+  , "abbreviation": "NOP"
+  , "min":
+    { "avg": "48.2"
+    , "rank": "15"
+    }
+  , "fgp":
+    { "avg": "0.44"
+    , "rank": "25"
+    }
+  , "tpp":
+    { "avg": "0.33"
+    , "rank": "26"
+    }
+  , "ftp":
+    { "avg": "0.79"
+    , "rank": "7"
+    }
+  , "orpg":
+    { "avg": "11.7"
+    , "rank": "4"
+    }
+  , "drpg":
+    { "avg": "33.8"
+    , "rank": "22"
+    }
+  , "trpg":
+    { "avg": "45.5"
+    , "rank": "10"
+    }
+  , "apg":
+    { "avg": "24.6"
+    , "rank": "11"
+    }
+  , "tpg":
+    { "avg": "14.3"
+    , "rank": "9"
+    }
+  , "spg":
+    { "avg": "7.5"
+    , "rank": "13"
+    }
+  , "bpg":
+    { "avg": "4.1"
+    , "rank": "27"
+    }
+  , "pfpg":
+    { "avg": "19.4"
+    , "rank": "15"
+    }
+  , "ppg":
+    { "avg": "105.5"
+    , "rank": "26"
+    }
+  , "oppg":
+    { "avg": "109.4"
+    , "rank": "15"
+    }
+  , "eff":
+    { "avg": "-3.90"
+    , "rank": "24"
+    }
+  }
+, { "teamId": "1610612741"
+  , "name": "Chicago"
+  , "nickname": "Bulls"
+  , "teamcode": "bulls"
+  , "abbreviation": "CHI"
+  , "min":
+    { "avg": "48.1"
+    , "rank": "23"
+    }
+  , "fgp":
+    { "avg": "0.48"
+    , "rank": "1"
+    }
+  , "tpp":
+    { "avg": "0.37"
+    , "rank": "3"
+    }
+  , "ftp":
+    { "avg": "0.81"
+    , "rank": "4"
+    }
+  , "orpg":
+    { "avg": "8.9"
+    , "rank": "28"
+    }
+  , "drpg":
+    { "avg": "34.2"
+    , "rank": "19"
+    }
+  , "trpg":
+    { "avg": "43.1"
+    , "rank": "26"
+    }
+  , "apg":
+    { "avg": "24.5"
+    , "rank": "12"
+    }
+  , "tpg":
+    { "avg": "13.1"
+    , "rank": "25"
+    }
+  , "spg":
+    { "avg": "7.3"
+    , "rank": "18"
+    }
+  , "bpg":
+    { "avg": "4.7"
+    , "rank": "20"
+    }
+  , "pfpg":
+    { "avg": "18.8"
+    , "rank": "23"
+    }
+  , "ppg":
+    { "avg": "111.7"
+    , "rank": "8"
+    }
+  , "oppg":
+    { "avg": "109.8"
+    , "rank": "13"
+    }
+  , "eff":
+    { "avg": "+1.90"
+    , "rank": "11"
+    }
+  }
+, { "teamId": "1610612742"
+  , "name": "Dallas"
+  , "nickname": "Mavericks"
+  , "teamcode": "mavericks"
+  , "abbreviation": "DAL"
+  , "min":
+    { "avg": "48.3"
+    , "rank": "10"
+    }
+  , "fgp":
+    { "avg": "0.45"
+    , "rank": "19"
+    }
+  , "tpp":
+    { "avg": "0.33"
+    , "rank": "25"
+    }
+  , "ftp":
+    { "avg": "0.77"
+    , "rank": "16"
+    }
+  , "orpg":
+    { "avg": "9.5"
+    , "rank": "24"
+    }
+  , "drpg":
+    { "avg": "34.3"
+    , "rank": "17"
+    }
+  , "trpg":
+    { "avg": "43.8"
+    , "rank": "23"
+    }
+  , "apg":
+    { "avg": "23.9"
+    , "rank": "16"
+    }
+  , "tpg":
+    { "avg": "12.5"
+    , "rank": "28"
+    }
+  , "spg":
+    { "avg": "7.1"
+    , "rank": "22"
+    }
+  , "bpg":
+    { "avg": "4.1"
+    , "rank": "28"
+    }
+  , "pfpg":
+    { "avg": "19.6"
+    , "rank": "13"
+    }
+  , "ppg":
+    { "avg": "106.3"
+    , "rank": "24"
+    }
+  , "oppg":
+    { "avg": "103.6"
+    , "rank": "28"
+    }
+  , "eff":
+    { "avg": "+2.60"
+    , "rank": "9"
+    }
+  }
+, { "teamId": "1610612743"
+  , "name": "Denver"
+  , "nickname": "Nuggets"
+  , "teamcode": "nuggets"
+  , "abbreviation": "DEN"
+  , "min":
+    { "avg": "48.2"
+    , "rank": "15"
+    }
+  , "fgp":
+    { "avg": "0.47"
+    , "rank": "4"
+    }
+  , "tpp":
+    { "avg": "0.35"
+    , "rank": "14"
+    }
+  , "ftp":
+    { "avg": "0.79"
+    , "rank": "10"
+    }
+  , "orpg":
+    { "avg": "8.9"
+    , "rank": "29"
+    }
+  , "drpg":
+    { "avg": "34.2"
+    , "rank": "18"
+    }
+  , "trpg":
+    { "avg": "43.1"
+    , "rank": "26"
+    }
+  , "apg":
+    { "avg": "26.9"
+    , "rank": "3"
+    }
+  , "tpg":
+    { "avg": "14.0"
+    , "rank": "16"
+    }
+  , "spg":
+    { "avg": "7.3"
+    , "rank": "20"
+    }
+  , "bpg":
+    { "avg": "3.8"
+    , "rank": "29"
+    }
+  , "pfpg":
+    { "avg": "19.3"
+    , "rank": "16"
+    }
+  , "ppg":
+    { "avg": "109.0"
+    , "rank": "15"
+    }
+  , "oppg":
+    { "avg": "107.5"
+    , "rank": "19"
+    }
+  , "eff":
+    { "avg": "+1.50"
+    , "rank": "12"
+    }
+  }
+, { "teamId": "1610612744"
+  , "name": "Golden State"
+  , "nickname": "Warriors"
+  , "teamcode": "warriors"
+  , "abbreviation": "GSW"
+  , "min":
+    { "avg": "48.2"
+    , "rank": "20"
+    }
+  , "fgp":
+    { "avg": "0.47"
+    , "rank": "6"
+    }
+  , "tpp":
+    { "avg": "0.36"
+    , "rank": "4"
+    }
+  , "ftp":
+    { "avg": "0.76"
+    , "rank": "18"
+    }
+  , "orpg":
+    { "avg": "10.1"
+    , "rank": "19"
+    }
+  , "drpg":
+    { "avg": "36.4"
+    , "rank": "1"
+    }
+  , "trpg":
+    { "avg": "46.5"
+    , "rank": "3"
+    }
+  , "apg":
+    { "avg": "27.5"
+    , "rank": "2"
+    }
+  , "tpg":
+    { "avg": "15.6"
+    , "rank": "2"
+    }
+  , "spg":
+    { "avg": "9.4"
+    , "rank": "2"
+    }
+  , "bpg":
+    { "avg": "4.9"
+    , "rank": "10"
+    }
+  , "pfpg":
+    { "avg": "20.3"
+    , "rank": "5"
+    }
+  , "ppg":
+    { "avg": "110.9"
+    , "rank": "12"
+    }
+  , "oppg":
+    { "avg": "102.7"
+    , "rank": "29"
+    }
+  , "eff":
+    { "avg": "+8.30"
+    , "rank": "1"
+    }
+  }
+, { "teamId": "1610612745"
+  , "name": "Houston"
+  , "nickname": "Rockets"
+  , "teamcode": "rockets"
+  , "abbreviation": "HOU"
+  , "min":
+    { "avg": "48.1"
+    , "rank": "23"
+    }
+  , "fgp":
+    { "avg": "0.45"
+    , "rank": "20"
+    }
+  , "tpp":
+    { "avg": "0.34"
+    , "rank": "20"
+    }
+  , "ftp":
+    { "avg": "0.72"
+    , "rank": "30"
+    }
+  , "orpg":
+    { "avg": "9.6"
+    , "rank": "23"
+    }
+  , "drpg":
+    { "avg": "33.1"
+    , "rank": "27"
+    }
+  , "trpg":
+    { "avg": "42.7"
+    , "rank": "28"
+    }
+  , "apg":
+    { "avg": "22.8"
+    , "rank": "24"
+    }
+  , "tpg":
+    { "avg": "16.9"
+    , "rank": "1"
+    }
+  , "spg":
+    { "avg": "7.3"
+    , "rank": "18"
+    }
+  , "bpg":
+    { "avg": "4.7"
+    , "rank": "17"
+    }
+  , "pfpg":
+    { "avg": "20.0"
+    , "rank": "7"
+    }
+  , "ppg":
+    { "avg": "108.4"
+    , "rank": "17"
+    }
+  , "oppg":
+    { "avg": "117.0"
+    , "rank": "1"
+    }
+  , "eff":
+    { "avg": "-8.60"
+    , "rank": "29"
+    }
+  }
+, { "teamId": "1610612746"
+  , "name": "LA"
+  , "nickname": "Clippers"
+  , "teamcode": "clippers"
+  , "abbreviation": "LAC"
+  , "min":
+    { "avg": "48.2"
+    , "rank": "21"
+    }
+  , "fgp":
+    { "avg": "0.45"
+    , "rank": "20"
+    }
+  , "tpp":
+    { "avg": "0.36"
+    , "rank": "9"
+    }
+  , "ftp":
+    { "avg": "0.79"
+    , "rank": "9"
+    }
+  , "orpg":
+    { "avg": "8.9"
+    , "rank": "27"
+    }
+  , "drpg":
+    { "avg": "35.1"
+    , "rank": "9"
+    }
+  , "trpg":
+    { "avg": "44.1"
+    , "rank": "21"
+    }
+  , "apg":
+    { "avg": "23.3"
+    , "rank": "19"
+    }
+  , "tpg":
+    { "avg": "14.3"
+    , "rank": "11"
+    }
+  , "spg":
+    { "avg": "7.5"
+    , "rank": "15"
+    }
+  , "bpg":
+    { "avg": "4.6"
+    , "rank": "22"
+    }
+  , "pfpg":
+    { "avg": "18.7"
+    , "rank": "25"
+    }
+  , "ppg":
+    { "avg": "106.2"
+    , "rank": "25"
+    }
+  , "oppg":
+    { "avg": "106.9"
+    , "rank": "22"
+    }
+  , "eff":
+    { "avg": "-0.60"
+    , "rank": "18"
+    }
+  }
+, { "teamId": "1610612747"
+  , "name": "Los Angeles"
+  , "nickname": "Lakers"
+  , "teamcode": "lakers"
+  , "abbreviation": "LAL"
+  , "min":
+    { "avg": "48.8"
+    , "rank": "1"
+    }
+  , "fgp":
+    { "avg": "0.46"
+    , "rank": "11"
+    }
+  , "tpp":
+    { "avg": "0.35"
+    , "rank": "18"
+    }
+  , "ftp":
+    { "avg": "0.73"
+    , "rank": "29"
+    }
+  , "orpg":
+    { "avg": "9.6"
+    , "rank": "22"
+    }
+  , "drpg":
+    { "avg": "35.3"
+    , "rank": "7"
+    }
+  , "trpg":
+    { "avg": "44.9"
+    , "rank": "15"
+    }
+  , "apg":
+    { "avg": "24.1"
+    , "rank": "15"
+    }
+  , "tpg":
+    { "avg": "14.7"
+    , "rank": "6"
+    }
+  , "spg":
+    { "avg": "8.1"
+    , "rank": "7"
+    }
+  , "bpg":
+    { "avg": "5.6"
+    , "rank": "6"
+    }
+  , "pfpg":
+    { "avg": "20.2"
+    , "rank": "6"
+    }
+  , "ppg":
+    { "avg": "110.9"
+    , "rank": "11"
+    }
+  , "oppg":
+    { "avg": "112.3"
+    , "rank": "5"
+    }
+  , "eff":
+    { "avg": "-1.30"
+    , "rank": "21"
+    }
+  }
+, { "teamId": "1610612748"
+  , "name": "Miami"
+  , "nickname": "Heat"
+  , "teamcode": "heat"
+  , "abbreviation": "MIA"
+  , "min":
+    { "avg": "48.5"
+    , "rank": "5"
+    }
+  , "fgp":
+    { "avg": "0.46"
+    , "rank": "13"
+    }
+  , "tpp":
+    { "avg": "0.38"
+    , "rank": "2"
+    }
+  , "ftp":
+    { "avg": "0.82"
+    , "rank": "3"
+    }
+  , "orpg":
+    { "avg": "10.8"
+    , "rank": "8"
+    }
+  , "drpg":
+    { "avg": "33.8"
+    , "rank": "21"
+    }
+  , "trpg":
+    { "avg": "44.6"
+    , "rank": "17"
+    }
+  , "apg":
+    { "avg": "25.9"
+    , "rank": "6"
+    }
+  , "tpg":
+    { "avg": "14.9"
+    , "rank": "4"
+    }
+  , "spg":
+    { "avg": "7.6"
+    , "rank": "12"
+    }
+  , "bpg":
+    { "avg": "3.3"
+    , "rank": "30"
+    }
+  , "pfpg":
+    { "avg": "20.5"
+    , "rank": "3"
+    }
+  , "ppg":
+    { "avg": "108.7"
+    , "rank": "16"
+    }
+  , "oppg":
+    { "avg": "104.4"
+    , "rank": "26"
+    }
+  , "eff":
+    { "avg": "+4.20"
+    , "rank": "4"
+    }
+  }
+, { "teamId": "1610612749"
+  , "name": "Milwaukee"
+  , "nickname": "Bucks"
+  , "teamcode": "bucks"
+  , "abbreviation": "MIL"
+  , "min":
+    { "avg": "48.2"
+    , "rank": "21"
+    }
+  , "fgp":
+    { "avg": "0.46"
+    , "rank": "16"
+    }
+  , "tpp":
+    { "avg": "0.36"
+    , "rank": "8"
+    }
+  , "ftp":
+    { "avg": "0.78"
+    , "rank": "12"
+    }
+  , "orpg":
+    { "avg": "10.3"
+    , "rank": "15"
+    }
+  , "drpg":
+    { "avg": "36.4"
+    , "rank": "2"
+    }
+  , "trpg":
+    { "avg": "46.7"
+    , "rank": "2"
+    }
+  , "apg":
+    { "avg": "23.3"
+    , "rank": "18"
+    }
+  , "tpg":
+    { "avg": "13.8"
+    , "rank": "18"
+    }
+  , "spg":
+    { "avg": "7.8"
+    , "rank": "9"
+    }
+  , "bpg":
+    { "avg": "4.2"
+    , "rank": "26"
+    }
+  , "pfpg":
+    { "avg": "17.9"
+    , "rank": "28"
+    }
+  , "ppg":
+    { "avg": "112.2"
+    , "rank": "6"
+    }
+  , "oppg":
+    { "avg": "108.6"
+    , "rank": "16"
+    }
+  , "eff":
+    { "avg": "+3.60"
+    , "rank": "7"
+    }
+  }
+, { "teamId": "1610612750"
+  , "name": "Minnesota"
+  , "nickname": "Timberwolves"
+  , "teamcode": "timberwolves"
+  , "abbreviation": "MIN"
+  , "min":
+    { "avg": "48.3"
+    , "rank": "9"
+    }
+  , "fgp":
+    { "avg": "0.45"
+    , "rank": "24"
+    }
+  , "tpp":
+    { "avg": "0.34"
+    , "rank": "19"
+    }
+  , "ftp":
+    { "avg": "0.76"
+    , "rank": "18"
+    }
+  , "orpg":
+    { "avg": "12.1"
+    , "rank": "3"
+    }
+  , "drpg":
+    { "avg": "32.9"
+    , "rank": "28"
+    }
+  , "trpg":
+    { "avg": "45.0"
+    , "rank": "14"
+    }
+  , "apg":
+    { "avg": "24.8"
+    , "rank": "10"
+    }
+  , "tpg":
+    { "avg": "14.7"
+    , "rank": "5"
+    }
+  , "spg":
+    { "avg": "8.8"
+    , "rank": "4"
+    }
+  , "bpg":
+    { "avg": "5.8"
+    , "rank": "3"
+    }
+  , "pfpg":
+    { "avg": "21.8"
+    , "rank": "1"
+    }
+  , "ppg":
+    { "avg": "112.3"
+    , "rank": "5"
+    }
+  , "oppg":
+    { "avg": "110.8"
+    , "rank": "11"
+    }
+  , "eff":
+    { "avg": "+1.40"
+    , "rank": "13"
+    }
+  }
+, { "teamId": "1610612751"
+  , "name": "Brooklyn"
+  , "nickname": "Nets"
+  , "teamcode": "nets"
+  , "abbreviation": "BKN"
+  , "min":
+    { "avg": "48.2"
+    , "rank": "15"
+    }
+  , "fgp":
+    { "avg": "0.47"
+    , "rank": "4"
+    }
+  , "tpp":
+    { "avg": "0.35"
+    , "rank": "16"
+    }
+  , "ftp":
+    { "avg": "0.82"
+    , "rank": "1"
+    }
+  , "orpg":
+    { "avg": "10.1"
+    , "rank": "18"
+    }
+  , "drpg":
+    { "avg": "35.0"
+    , "rank": "11"
+    }
+  , "trpg":
+    { "avg": "45.1"
+    , "rank": "12"
+    }
+  , "apg":
+    { "avg": "25.3"
+    , "rank": "8"
+    }
+  , "tpg":
+    { "avg": "14.0"
+    , "rank": "14"
+    }
+  , "spg":
+    { "avg": "7.0"
+    , "rank": "25"
+    }
+  , "bpg":
+    { "avg": "5.5"
+    , "rank": "7"
+    }
+  , "pfpg":
+    { "avg": "19.8"
+    , "rank": "11"
+    }
+  , "ppg":
+    { "avg": "111.4"
+    , "rank": "10"
+    }
+  , "oppg":
+    { "avg": "110.6"
+    , "rank": "12"
+    }
+  , "eff":
+    { "avg": "+0.90"
+    , "rank": "15"
+    }
+  }
+, { "teamId": "1610612752"
+  , "name": "New York"
+  , "nickname": "Knicks"
+  , "teamcode": "knicks"
+  , "abbreviation": "NYK"
+  , "min":
+    { "avg": "48.3"
+    , "rank": "10"
+    }
+  , "fgp":
+    { "avg": "0.44"
+    , "rank": "27"
+    }
+  , "tpp":
+    { "avg": "0.36"
+    , "rank": "10"
+    }
+  , "ftp":
+    { "avg": "0.75"
+    , "rank": "25"
+    }
+  , "orpg":
+    { "avg": "11.1"
+    , "rank": "6"
+    }
+  , "drpg":
+    { "avg": "34.7"
+    , "rank": "13"
+    }
+  , "trpg":
+    { "avg": "45.8"
+    , "rank": "7"
+    }
+  , "apg":
+    { "avg": "21.4"
+    , "rank": "29"
+    }
+  , "tpg":
+    { "avg": "13.6"
+    , "rank": "19"
+    }
+  , "spg":
+    { "avg": "6.9"
+    , "rank": "26"
+    }
+  , "bpg":
+    { "avg": "4.9"
+    , "rank": "10"
+    }
+  , "pfpg":
+    { "avg": "19.7"
+    , "rank": "12"
+    }
+  , "ppg":
+    { "avg": "104.4"
+    , "rank": "27"
+    }
+  , "oppg":
+    { "avg": "105.2"
+    , "rank": "24"
+    }
+  , "eff":
+    { "avg": "-0.90"
+    , "rank": "20"
+    }
+  }
+, { "teamId": "1610612753"
+  , "name": "Orlando"
+  , "nickname": "Magic"
+  , "teamcode": "magic"
+  , "abbreviation": "ORL"
+  , "min":
+    { "avg": "48.1"
+    , "rank": "26"
+    }
+  , "fgp":
+    { "avg": "0.43"
+    , "rank": "28"
+    }
+  , "tpp":
+    { "avg": "0.33"
+    , "rank": "26"
+    }
+  , "ftp":
+    { "avg": "0.78"
+    , "rank": "11"
+    }
+  , "orpg":
+    { "avg": "9.1"
+    , "rank": "26"
+    }
+  , "drpg":
+    { "avg": "34.3"
+    , "rank": "16"
+    }
+  , "trpg":
+    { "avg": "43.4"
+    , "rank": "25"
+    }
+  , "apg":
+    { "avg": "23.1"
+    , "rank": "22"
+    }
+  , "tpg":
+    { "avg": "14.5"
+    , "rank": "8"
+    }
+  , "spg":
+    { "avg": "6.7"
+    , "rank": "29"
+    }
+  , "bpg":
+    { "avg": "4.7"
+    , "rank": "16"
+    }
+  , "pfpg":
+    { "avg": "20.0"
+    , "rank": "8"
+    }
+  , "ppg":
+    { "avg": "103.3"
+    , "rank": "28"
+    }
+  , "oppg":
+    { "avg": "111.3"
+    , "rank": "9"
+    }
+  , "eff":
+    { "avg": "-8.00"
+    , "rank": "28"
+    }
+  }
+, { "teamId": "1610612754"
+  , "name": "Indiana"
+  , "nickname": "Pacers"
+  , "teamcode": "pacers"
+  , "abbreviation": "IND"
+  , "min":
+    { "avg": "48.6"
+    , "rank": "3"
+    }
+  , "fgp":
+    { "avg": "0.46"
+    , "rank": "15"
+    }
+  , "tpp":
+    { "avg": "0.33"
+    , "rank": "24"
+    }
+  , "ftp":
+    { "avg": "0.77"
+    , "rank": "17"
+    }
+  , "orpg":
+    { "avg": "10.9"
+    , "rank": "7"
+    }
+  , "drpg":
+    { "avg": "33.7"
+    , "rank": "23"
+    }
+  , "trpg":
+    { "avg": "44.6"
+    , "rank": "16"
+    }
+  , "apg":
+    { "avg": "24.4"
+    , "rank": "13"
+    }
+  , "tpg":
+    { "avg": "14.2"
+    , "rank": "12"
+    }
+  , "spg":
+    { "avg": "6.9"
+    , "rank": "27"
+    }
+  , "bpg":
+    { "avg": "5.6"
+    , "rank": "5"
+    }
+  , "pfpg":
+    { "avg": "20.4"
+    , "rank": "4"
+    }
+  , "ppg":
+    { "avg": "109.2"
+    , "rank": "14"
+    }
+  , "oppg":
+    { "avg": "111.1"
+    , "rank": "10"
+    }
+  , "eff":
+    { "avg": "-1.90"
+    , "rank": "22"
+    }
+  }
+, { "teamId": "1610612755"
+  , "name": "Philadelphia"
+  , "nickname": "76ers"
+  , "teamcode": "sixers"
+  , "abbreviation": "PHI"
+  , "min":
+    { "avg": "48.4"
+    , "rank": "6"
+    }
+  , "fgp":
+    { "avg": "0.46"
+    , "rank": "9"
+    }
+  , "tpp":
+    { "avg": "0.36"
+    , "rank": "10"
+    }
+  , "ftp":
+    { "avg": "0.81"
+    , "rank": "5"
+    }
+  , "orpg":
+    { "avg": "8.5"
+    , "rank": "30"
+    }
+  , "drpg":
+    { "avg": "33.7"
+    , "rank": "24"
+    }
+  , "trpg":
+    { "avg": "42.2"
+    , "rank": "30"
+    }
+  , "apg":
+    { "avg": "23.1"
+    , "rank": "23"
+    }
+  , "tpg":
+    { "avg": "12.5"
+    , "rank": "29"
+    }
+  , "spg":
+    { "avg": "7.7"
+    , "rank": "11"
+    }
+  , "bpg":
+    { "avg": "5.7"
+    , "rank": "4"
+    }
+  , "pfpg":
+    { "avg": "19.2"
+    , "rank": "19"
+    }
+  , "ppg":
+    { "avg": "107.6"
+    , "rank": "21"
+    }
+  , "oppg":
+    { "avg": "105.6"
+    , "rank": "23"
+    }
+  , "eff":
+    { "avg": "+2.00"
+    , "rank": "10"
+    }
+  }
+, { "teamId": "1610612756"
+  , "name": "Phoenix"
+  , "nickname": "Suns"
+  , "teamcode": "suns"
+  , "abbreviation": "PHX"
+  , "min":
+    { "avg": "48.1"
+    , "rank": "23"
+    }
+  , "fgp":
+    { "avg": "0.48"
+    , "rank": "1"
+    }
+  , "tpp":
+    { "avg": "0.36"
+    , "rank": "6"
+    }
+  , "ftp":
+    { "avg": "0.79"
+    , "rank": "8"
+    }
+  , "orpg":
+    { "avg": "10.2"
+    , "rank": "16"
+    }
+  , "drpg":
+    { "avg": "35.9"
+    , "rank": "3"
+    }
+  , "trpg":
+    { "avg": "46.1"
+    , "rank": "5"
+    }
+  , "apg":
+    { "avg": "26.5"
+    , "rank": "5"
+    }
+  , "tpg":
+    { "avg": "13.2"
+    , "rank": "22"
+    }
+  , "spg":
+    { "avg": "8.6"
+    , "rank": "6"
+    }
+  , "bpg":
+    { "avg": "4.2"
+    , "rank": "25"
+    }
+  , "pfpg":
+    { "avg": "19.3"
+    , "rank": "16"
+    }
+  , "ppg":
+    { "avg": "112.7"
+    , "rank": "3"
+    }
+  , "oppg":
+    { "avg": "105.0"
+    , "rank": "25"
+    }
+  , "eff":
+    { "avg": "+7.80"
+    , "rank": "2"
+    }
+  }
+, { "teamId": "1610612757"
+  , "name": "Portland"
+  , "nickname": "Trail Blazers"
+  , "teamcode": "blazers"
+  , "abbreviation": "POR"
+  , "min":
+    { "avg": "48.1"
+    , "rank": "26"
+    }
+  , "fgp":
+    { "avg": "0.45"
+    , "rank": "23"
+    }
+  , "tpp":
+    { "avg": "0.36"
+    , "rank": "10"
+    }
+  , "ftp":
+    { "avg": "0.76"
+    , "rank": "21"
+    }
+  , "orpg":
+    { "avg": "10.1"
+    , "rank": "20"
+    }
+  , "drpg":
+    { "avg": "33.6"
+    , "rank": "25"
+    }
+  , "trpg":
+    { "avg": "43.7"
+    , "rank": "24"
+    }
+  , "apg":
+    { "avg": "22.7"
+    , "rank": "25"
+    }
+  , "tpg":
+    { "avg": "13.9"
+    , "rank": "17"
+    }
+  , "spg":
+    { "avg": "7.5"
+    , "rank": "14"
+    }
+  , "bpg":
+    { "avg": "4.7"
+    , "rank": "19"
+    }
+  , "pfpg":
+    { "avg": "20.0"
+    , "rank": "9"
+    }
+  , "ppg":
+    { "avg": "107.8"
+    , "rank": "20"
+    }
+  , "oppg":
+    { "avg": "112.3"
+    , "rank": "4"
+    }
+  , "eff":
+    { "avg": "-4.40"
+    , "rank": "25"
+    }
+  }
+, { "teamId": "1610612758"
+  , "name": "Sacramento"
+  , "nickname": "Kings"
+  , "teamcode": "kings"
+  , "abbreviation": "SAC"
+  , "min":
+    { "avg": "48.3"
+    , "rank": "13"
+    }
+  , "fgp":
+    { "avg": "0.45"
+    , "rank": "18"
+    }
+  , "tpp":
+    { "avg": "0.34"
+    , "rank": "21"
+    }
+  , "ftp":
+    { "avg": "0.76"
+    , "rank": "23"
+    }
+  , "orpg":
+    { "avg": "10.4"
+    , "rank": "13"
+    }
+  , "drpg":
+    { "avg": "33.5"
+    , "rank": "26"
+    }
+  , "trpg":
+    { "avg": "43.8"
+    , "rank": "22"
+    }
+  , "apg":
+    { "avg": "23.2"
+    , "rank": "21"
+    }
+  , "tpg":
+    { "avg": "14.0"
+    , "rank": "15"
+    }
+  , "spg":
+    { "avg": "7.3"
+    , "rank": "17"
+    }
+  , "bpg":
+    { "avg": "4.7"
+    , "rank": "18"
+    }
+  , "pfpg":
+    { "avg": "19.2"
+    , "rank": "18"
+    }
+  , "ppg":
+    { "avg": "109.5"
+    , "rank": "13"
+    }
+  , "oppg":
+    { "avg": "114.5"
+    , "rank": "2"
+    }
+  , "eff":
+    { "avg": "-5.00"
+    , "rank": "26"
+    }
+  }
+, { "teamId": "1610612759"
+  , "name": "San Antonio"
+  , "nickname": "Spurs"
+  , "teamcode": "spurs"
+  , "abbreviation": "SAS"
+  , "min":
+    { "avg": "48.3"
+    , "rank": "12"
+    }
+  , "fgp":
+    { "avg": "0.47"
+    , "rank": "8"
+    }
+  , "tpp":
+    { "avg": "0.35"
+    , "rank": "14"
+    }
+  , "ftp":
+    { "avg": "0.74"
+    , "rank": "26"
+    }
+  , "orpg":
+    { "avg": "11.2"
+    , "rank": "5"
+    }
+  , "drpg":
+    { "avg": "34.4"
+    , "rank": "15"
+    }
+  , "trpg":
+    { "avg": "45.6"
+    , "rank": "9"
+    }
+  , "apg":
+    { "avg": "27.9"
+    , "rank": "1"
+    }
+  , "tpg":
+    { "avg": "12.7"
+    , "rank": "27"
+    }
+  , "spg":
+    { "avg": "7.7"
+    , "rank": "10"
+    }
+  , "bpg":
+    { "avg": "5.2"
+    , "rank": "8"
+    }
+  , "pfpg":
+    { "avg": "17.9"
+    , "rank": "28"
+    }
+  , "ppg":
+    { "avg": "111.5"
+    , "rank": "9"
+    }
+  , "oppg":
+    { "avg": "111.5"
+    , "rank": "8"
+    }
+  , "eff":
+    { "avg": "0.00"
+    , "rank": "17"
+    }
+  }
+, { "teamId": "1610612760"
+  , "name": "Oklahoma City"
+  , "nickname": "Thunder"
+  , "teamcode": "thunder"
+  , "abbreviation": "OKC"
+  , "min":
+    { "avg": "48.2"
+    , "rank": "15"
+    }
+  , "fgp":
+    { "avg": "0.42"
+    , "rank": "30"
+    }
+  , "tpp":
+    { "avg": "0.32"
+    , "rank": "30"
+    }
+  , "ftp":
+    { "avg": "0.76"
+    , "rank": "20"
+    }
+  , "orpg":
+    { "avg": "10.4"
+    , "rank": "12"
+    }
+  , "drpg":
+    { "avg": "35.5"
+    , "rank": "6"
+    }
+  , "trpg":
+    { "avg": "45.9"
+    , "rank": "6"
+    }
+  , "apg":
+    { "avg": "21.1"
+    , "rank": "30"
+    }
+  , "tpg":
+    { "avg": "13.5"
+    , "rank": "20"
+    }
+  , "spg":
+    { "avg": "7.4"
+    , "rank": "16"
+    }
+  , "bpg":
+    { "avg": "4.6"
+    , "rank": "21"
+    }
+  , "pfpg":
+    { "avg": "18.2"
+    , "rank": "27"
+    }
+  , "ppg":
+    { "avg": "101.0"
+    , "rank": "30"
+    }
+  , "oppg":
+    { "avg": "107.4"
+    , "rank": "20"
+    }
+  , "eff":
+    { "avg": "-6.40"
+    , "rank": "27"
+    }
+  }
+, { "teamId": "1610612761"
+  , "name": "Toronto"
+  , "nickname": "Raptors"
+  , "teamcode": "raptors"
+  , "abbreviation": "TOR"
+  , "min":
+    { "avg": "48.5"
+    , "rank": "4"
+    }
+  , "fgp":
+    { "avg": "0.44"
+    , "rank": "25"
+    }
+  , "tpp":
+    { "avg": "0.36"
+    , "rank": "10"
+    }
+  , "ftp":
+    { "avg": "0.76"
+    , "rank": "22"
+    }
+  , "orpg":
+    { "avg": "13.2"
+    , "rank": "2"
+    }
+  , "drpg":
+    { "avg": "31.8"
+    , "rank": "30"
+    }
+  , "trpg":
+    { "avg": "45.0"
+    , "rank": "13"
+    }
+  , "apg":
+    { "avg": "22.2"
+    , "rank": "27"
+    }
+  , "tpg":
+    { "avg": "12.8"
+    , "rank": "26"
+    }
+  , "spg":
+    { "avg": "9.2"
+    , "rank": "3"
+    }
+  , "bpg":
+    { "avg": "4.9"
+    , "rank": "13"
+    }
+  , "pfpg":
+    { "avg": "19.8"
+    , "rank": "10"
+    }
+  , "ppg":
+    { "avg": "108.2"
+    , "rank": "18"
+    }
+  , "oppg":
+    { "avg": "106.9"
+    , "rank": "21"
+    }
+  , "eff":
+    { "avg": "+1.30"
+    , "rank": "14"
+    }
+  }
+, { "teamId": "1610612762"
+  , "name": "Utah"
+  , "nickname": "Jazz"
+  , "teamcode": "jazz"
+  , "abbreviation": "UTA"
+  , "min":
+    { "avg": "48.0"
+    , "rank": "28"
+    }
+  , "fgp":
+    { "avg": "0.47"
+    , "rank": "3"
+    }
+  , "tpp":
+    { "avg": "0.36"
+    , "rank": "4"
+    }
+  , "ftp":
+    { "avg": "0.78"
+    , "rank": "14"
+    }
+  , "orpg":
+    { "avg": "10.1"
+    , "rank": "17"
+    }
+  , "drpg":
+    { "avg": "35.7"
+    , "rank": "4"
+    }
+  , "trpg":
+    { "avg": "45.8"
+    , "rank": "8"
+    }
+  , "apg":
+    { "avg": "22.2"
+    , "rank": "28"
+    }
+  , "tpg":
+    { "avg": "14.3"
+    , "rank": "10"
+    }
+  , "spg":
+    { "avg": "7.1"
+    , "rank": "24"
+    }
+  , "bpg":
+    { "avg": "4.8"
+    , "rank": "14"
+    }
+  , "pfpg":
+    { "avg": "18.8"
+    , "rank": "21"
+    }
+  , "ppg":
+    { "avg": "113.6"
+    , "rank": "1"
+    }
+  , "oppg":
+    { "avg": "107.6"
+    , "rank": "18"
+    }
+  , "eff":
+    { "avg": "+6.00"
+    , "rank": "3"
+    }
+  }
+, { "teamId": "1610612763"
+  , "name": "Memphis"
+  , "nickname": "Grizzlies"
+  , "teamcode": "grizzlies"
+  , "abbreviation": "MEM"
+  , "min":
+    { "avg": "48.3"
+    , "rank": "13"
+    }
+  , "fgp":
+    { "avg": "0.46"
+    , "rank": "16"
+    }
+  , "tpp":
+    { "avg": "0.34"
+    , "rank": "23"
+    }
+  , "ftp":
+    { "avg": "0.74"
+    , "rank": "27"
+    }
+  , "orpg":
+    { "avg": "13.6"
+    , "rank": "1"
+    }
+  , "drpg":
+    { "avg": "35.0"
+    , "rank": "10"
+    }
+  , "trpg":
+    { "avg": "48.6"
+    , "rank": "1"
+    }
+  , "apg":
+    { "avg": "25.1"
+    , "rank": "9"
+    }
+  , "tpg":
+    { "avg": "13.3"
+    , "rank": "21"
+    }
+  , "spg":
+    { "avg": "10.1"
+    , "rank": "1"
+    }
+  , "bpg":
+    { "avg": "6.4"
+    , "rank": "1"
+    }
+  , "pfpg":
+    { "avg": "19.1"
+    , "rank": "20"
+    }
+  , "ppg":
+    { "avg": "112.7"
+    , "rank": "4"
+    }
+  , "oppg":
+    { "avg": "108.6"
+    , "rank": "17"
+    }
+  , "eff":
+    { "avg": "+4.10"
+    , "rank": "6"
+    }
+  }
+, { "teamId": "1610612764"
+  , "name": "Washington"
+  , "nickname": "Wizards"
+  , "teamcode": "wizards"
+  , "abbreviation": "WAS"
+  , "min":
+    { "avg": "48.4"
+    , "rank": "6"
+    }
+  , "fgp":
+    { "avg": "0.46"
+    , "rank": "12"
+    }
+  , "tpp":
+    { "avg": "0.32"
+    , "rank": "28"
+    }
+  , "ftp":
+    { "avg": "0.78"
+    , "rank": "15"
+    }
+  , "orpg":
+    { "avg": "9.2"
+    , "rank": "25"
+    }
+  , "drpg":
+    { "avg": "35.2"
+    , "rank": "8"
+    }
+  , "trpg":
+    { "avg": "44.3"
+    , "rank": "19"
+    }
+  , "apg":
+    { "avg": "23.9"
+    , "rank": "17"
+    }
+  , "tpg":
+    { "avg": "13.2"
+    , "rank": "23"
+    }
+  , "spg":
+    { "avg": "6.0"
+    , "rank": "30"
+    }
+  , "bpg":
+    { "avg": "5.0"
+    , "rank": "9"
+    }
+  , "pfpg":
+    { "avg": "18.7"
+    , "rank": "24"
+    }
+  , "ppg":
+    { "avg": "106.9"
+    , "rank": "22"
+    }
+  , "oppg":
+    { "avg": "109.7"
+    , "rank": "14"
+    }
+  , "eff":
+    { "avg": "-2.80"
+    , "rank": "23"
+    }
+  }
+, { "teamId": "1610612765"
+  , "name": "Detroit"
+  , "nickname": "Pistons"
+  , "teamcode": "pistons"
+  , "abbreviation": "DET"
+  , "min":
+    { "avg": "48.2"
+    , "rank": "15"
+    }
+  , "fgp":
+    { "avg": "0.42"
+    , "rank": "29"
+    }
+  , "tpp":
+    { "avg": "0.32"
+    , "rank": "29"
+    }
+  , "ftp":
+    { "avg": "0.78"
+    , "rank": "13"
+    }
+  , "orpg":
+    { "avg": "10.5"
+    , "rank": "11"
+    }
+  , "drpg":
+    { "avg": "32.1"
+    , "rank": "29"
+    }
+  , "trpg":
+    { "avg": "42.6"
+    , "rank": "29"
+    }
+  , "apg":
+    { "avg": "22.3"
+    , "rank": "26"
+    }
+  , "tpg":
+    { "avg": "14.7"
+    , "rank": "7"
+    }
+  , "spg":
+    { "avg": "7.8"
+    , "rank": "8"
+    }
+  , "bpg":
+    { "avg": "4.8"
+    , "rank": "15"
+    }
+  , "pfpg":
+    { "avg": "21.5"
+    , "rank": "2"
+    }
+  , "ppg":
+    { "avg": "102.4"
+    , "rank": "29"
+    }
+  , "oppg":
+    { "avg": "111.7"
+    , "rank": "6"
+    }
+  , "eff":
+    { "avg": "-9.30"
+    , "rank": "30"
+    }
+  }
+, { "teamId": "1610612766"
+  , "name": "Charlotte"
+  , "nickname": "Hornets"
+  , "teamcode": "hornets"
+  , "abbreviation": "CHA"
+  , "min":
+    { "avg": "48.4"
+    , "rank": "8"
+    }
+  , "fgp":
+    { "avg": "0.46"
+    , "rank": "13"
+    }
+  , "tpp":
+    { "avg": "0.36"
+    , "rank": "6"
+    }
+  , "ftp":
+    { "avg": "0.74"
+    , "rank": "28"
+    }
+  , "orpg":
+    { "avg": "10.7"
+    , "rank": "9"
+    }
+  , "drpg":
+    { "avg": "33.8"
+    , "rank": "20"
+    }
+  , "trpg":
+    { "avg": "44.5"
+    , "rank": "18"
+    }
+  , "apg":
+    { "avg": "26.9"
+    , "rank": "4"
+    }
+  , "tpg":
+    { "avg": "13.2"
+    , "rank": "24"
+    }
+  , "spg":
+    { "avg": "8.7"
+    , "rank": "5"
+    }
+  , "bpg":
+    { "avg": "4.9"
+    , "rank": "12"
+    }
+  , "pfpg":
+    { "avg": "19.5"
+    , "rank": "14"
+    }
+  , "ppg":
+    { "avg": "113.6"
+    , "rank": "2"
+    }
+  , "oppg":
+    { "avg": "114.2"
+    , "rank": "3"
+    }
+  , "eff":
+    { "avg": "-0.60"
+    , "rank": "18"
+    }
+  }
+]

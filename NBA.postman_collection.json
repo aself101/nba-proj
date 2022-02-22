@@ -1,0 +1,1652 @@
+{
+	"info": {
+		"_postman_id": "4f7bc269-7d14-50c5-72c5-50604b50a852",
+		"name": "NBA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "NBA Players",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://data.nba.net/data/10s/prod/v1/2017/players.json",
+					"protocol": "http",
+					"host": [
+						"data",
+						"nba",
+						"net"
+					],
+					"path": [
+						"data",
+						"10s",
+						"prod",
+						"v1",
+						"2017",
+						"players.json"
+					]
+				},
+				"description": "Pulls scoreboard from a selected date\n*Params*\nyear: YYYY, 2012-Present"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Teams",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://data.nba.net/data/10s/prod/v1/2017/teams.json",
+					"protocol": "http",
+					"host": [
+						"data",
+						"nba",
+						"net"
+					],
+					"path": [
+						"data",
+						"10s",
+						"prod",
+						"v1",
+						"2017",
+						"teams.json"
+					]
+				},
+				"description": "Pulls nba teams\n*Params*\nyear: YYYY"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Scoreboard",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://data.nba.net/data/10s/prod/v1/20171118/scoreboard.json",
+					"protocol": "http",
+					"host": [
+						"data",
+						"nba",
+						"net"
+					],
+					"path": [
+						"data",
+						"10s",
+						"prod",
+						"v1",
+						"20171118",
+						"scoreboard.json"
+					]
+				},
+				"description": "Pulls NBA scoreboard for a date\n*Params*\ndate: YYYYMMDD"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Calendar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://data.nba.net/data/10s/prod/v1/calendar.json",
+					"protocol": "http",
+					"host": [
+						"data",
+						"nba",
+						"net"
+					],
+					"path": [
+						"data",
+						"10s",
+						"prod",
+						"v1",
+						"calendar.json"
+					]
+				},
+				"description": "Dates and the number of games on each day"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Coaches",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://data.nba.net/data/10s/prod/v1/2017/coaches.json",
+					"protocol": "http",
+					"host": [
+						"data",
+						"nba",
+						"net"
+					],
+					"path": [
+						"data",
+						"10s",
+						"prod",
+						"v1",
+						"2017",
+						"coaches.json"
+					]
+				},
+				"description": "year: YYYY"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Full Schedule",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://data.nba.net/data/10s/prod/v1/2017/schedule.json",
+					"protocol": "http",
+					"host": [
+						"data",
+						"nba",
+						"net"
+					],
+					"path": [
+						"data",
+						"10s",
+						"prod",
+						"v1",
+						"2017",
+						"schedule.json"
+					]
+				},
+				"description": "year: YYYY"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Conference Standings",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://data.nba.net/data/10s/prod/v1/20171117/standings_conference.json",
+					"protocol": "http",
+					"host": [
+						"data",
+						"nba",
+						"net"
+					],
+					"path": [
+						"data",
+						"10s",
+						"prod",
+						"v1",
+						"20171117",
+						"standings_conference.json"
+					]
+				},
+				"description": "date: YYYYMMDD"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Division Standings",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://data.nba.net/data/10s/prod/v1/20171118/standings_division.json",
+					"protocol": "http",
+					"host": [
+						"data",
+						"nba",
+						"net"
+					],
+					"path": [
+						"data",
+						"10s",
+						"prod",
+						"v1",
+						"20171118",
+						"standings_division.json"
+					]
+				},
+				"description": "date: YYYYMMDD"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Standings All Teams",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://data.nba.net/data/10s/prod/v1/20171118/standings_all.json",
+					"protocol": "http",
+					"host": [
+						"data",
+						"nba",
+						"net"
+					],
+					"path": [
+						"data",
+						"10s",
+						"prod",
+						"v1",
+						"20171118",
+						"standings_all.json"
+					]
+				},
+				"description": "date: YYYYMMDD\nContains sort keys\n\"sortKey\": {\n                        \"defaultOrder\": 1,\n                        \"nickname\": 5,\n                        \"win\": 1,\n                        \"loss\": 30,\n                        \"winPct\": 1,\n                        \"gamesBehind\": 29,\n                        \"confWinLoss\": 1,\n                        \"divWinLoss\": 1,\n                        \"homeWinLoss\": 1,\n                        \"awayWinLoss\": 2,\n                        \"lastTenWinLoss\": 1,\n                        \"streak\": 1\n                    }"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Team Stats & Rankings",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://data.nba.net/data/10s/prod/v1/2017/team_stats_rankings.json",
+					"protocol": "http",
+					"host": [
+						"data",
+						"nba",
+						"net"
+					],
+					"path": [
+						"data",
+						"10s",
+						"prod",
+						"v1",
+						"2017",
+						"team_stats_rankings.json"
+					]
+				},
+				"description": "year: YYYY"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Game Preview Article",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://data.nba.net/data/10s/prod/v1/20171117/0021700217_preview_article.json",
+					"protocol": "http",
+					"host": [
+						"data",
+						"nba",
+						"net"
+					],
+					"path": [
+						"data",
+						"10s",
+						"prod",
+						"v1",
+						"20171117",
+						"0021700217_preview_article.json"
+					]
+				},
+				"description": "gameId: 0021700217\ndate: YYYYMMDD"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Game Recap Article",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://data.nba.net/data/10s/prod/v1/20171117/0021700217_recap_article.json",
+					"protocol": "http",
+					"host": [
+						"data",
+						"nba",
+						"net"
+					],
+					"path": [
+						"data",
+						"10s",
+						"prod",
+						"v1",
+						"20171117",
+						"0021700217_recap_article.json"
+					]
+				},
+				"description": "gameId: 0021700217\ndate: YYYYMMDD"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Boxscore",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://data.nba.net/data/10s/prod/v1/20171117/0021700217_boxscore.json",
+					"protocol": "http",
+					"host": [
+						"data",
+						"nba",
+						"net"
+					],
+					"path": [
+						"data",
+						"10s",
+						"prod",
+						"v1",
+						"20171117",
+						"0021700217_boxscore.json"
+					]
+				},
+				"description": "Pulls the game boxscore - Not sure if displays in realtime\n* Params *\ngameId: 0021700217\ndate: YYYYMMDD"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Play by Play",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://data.nba.net/data/10s/prod/v1/20171117/0021700217_pbp_1.json",
+					"protocol": "http",
+					"host": [
+						"data",
+						"nba",
+						"net"
+					],
+					"path": [
+						"data",
+						"10s",
+						"prod",
+						"v1",
+						"20171117",
+						"0021700217_pbp_1.json"
+					]
+				},
+				"description": "Pulls the game play by play by period\n* Params *\ngameId: 0021700217\ndate: YYYYMMDD\nperiod: 1,2,3,4,5,6..."
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Game Lead Tracker",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://data.nba.net/data/10s/prod/v1/20171117/0021700217_lead_tracker_4.json",
+					"protocol": "http",
+					"host": [
+						"data",
+						"nba",
+						"net"
+					],
+					"path": [
+						"data",
+						"10s",
+						"prod",
+						"v1",
+						"20171117",
+						"0021700217_lead_tracker_4.json"
+					]
+				},
+				"description": "Pulls team id, time on clock and the points led by\n\n* Params *\ngameId: 0021700217\ndate: YYYYMMDD\nperiod: 1,2,3,4,5,6..."
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Gamelog Last 3 Games",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://data.nba.net/data/10s/prod/v1/2017/players/201143_gamelog.json",
+					"protocol": "http",
+					"host": [
+						"data",
+						"nba",
+						"net"
+					],
+					"path": [
+						"data",
+						"10s",
+						"prod",
+						"v1",
+						"2017",
+						"players",
+						"201143_gamelog.json"
+					]
+				},
+				"description": "year: YYYY\npersonId: 201143"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Player Profile",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://data.nba.net/data/10s/prod/v1/2017/players/201143_profile.json",
+					"protocol": "http",
+					"host": [
+						"data",
+						"nba",
+						"net"
+					],
+					"path": [
+						"data",
+						"10s",
+						"prod",
+						"v1",
+						"2017",
+						"players",
+						"201143_profile.json"
+					]
+				},
+				"description": "year: YYYY\npersonId: 201143"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Team Schedule",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://data.nba.net/data/10s/prod/v1/2017/teams/celtics/schedule.json",
+					"protocol": "http",
+					"host": [
+						"data",
+						"nba",
+						"net"
+					],
+					"path": [
+						"data",
+						"10s",
+						"prod",
+						"v1",
+						"2017",
+						"teams",
+						"celtics",
+						"schedule.json"
+					]
+				},
+				"description": "year: YYYY\nteamName: \n\tmavericks\n\trockets\n\tgrizzlies\n\tpelicans\n\tspurs\n\tnuggets\n\ttimberwolves\n\tthunder\n\tblazers\n\tjazz\n\twarriors\n\tclippers\n\tlakers\n\tsuns\n\tkings\n\tceltics\n\tnets\n\tknicks\n\tsixers\n\traptors\n\tbulls\n\tcavaliers\n\tpistons\n\tpacers\n\tbucks\n\thawks\n\thornets\n\theat\n\tmagic\n\twizards"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Team Config",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://data.nba.net/data/1h/prod/2017/teams_config.json",
+					"protocol": "http",
+					"host": [
+						"data",
+						"nba",
+						"net"
+					],
+					"path": [
+						"data",
+						"1h",
+						"prod",
+						"2017",
+						"teams_config.json"
+					]
+				},
+				"description": "Pulls basic app, website information\n* Params *\nyear: YYYY"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Team Roster(personID)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://data.nba.net/data/10s/prod/v1/2017/teams/celtics/roster.json",
+					"protocol": "http",
+					"host": [
+						"data",
+						"nba",
+						"net"
+					],
+					"path": [
+						"data",
+						"10s",
+						"prod",
+						"v1",
+						"2017",
+						"teams",
+						"celtics",
+						"roster.json"
+					]
+				},
+				"description": "Pulls a list of personIds belonging to the team\n* Params *\nyear: YYYY\nteams: celtics, pistons, etc"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Team Leaders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://data.nba.net/data/10s/prod/v1/2017/teams/celtics/leaders.json",
+					"protocol": "http",
+					"host": [
+						"data",
+						"nba",
+						"net"
+					],
+					"path": [
+						"data",
+						"10s",
+						"prod",
+						"v1",
+						"2017",
+						"teams",
+						"celtics",
+						"leaders.json"
+					]
+				},
+				"description": "Pulls team leads in different stat categories\n* Params *\nyear: YYYY\nteamName: celtics, pistons, etc"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Team Stats Year-by-Year",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stats.nba.com/stats/teamyearbyyearstats?LeagueID=00&TeamID=1610612738&PerMode=PerGame&SeasonType=Regular Season",
+					"protocol": "http",
+					"host": [
+						"stats",
+						"nba",
+						"com"
+					],
+					"path": [
+						"stats",
+						"teamyearbyyearstats"
+					],
+					"query": [
+						{
+							"key": "LeagueID",
+							"value": "00"
+						},
+						{
+							"key": "TeamID",
+							"value": "1610612738"
+						},
+						{
+							"key": "PerMode",
+							"value": "PerGame"
+						},
+						{
+							"key": "SeasonType",
+							"value": "Regular Season"
+						}
+					]
+				},
+				"description": "Pulls team stats since their inception\n* Params *\nLeagueID: 00 // Always\nSeasonType: 'Regular Season'\nTeamID:     1610612738\nPerMode:\t'PerGame'\n\t\t\t'Totals'"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Common All Players",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stats.nba.com/stats/commonallplayers?LeagueID=00&Season=2017-18&IsOnlyCurrentSeason=1",
+					"protocol": "http",
+					"host": [
+						"stats",
+						"nba",
+						"com"
+					],
+					"path": [
+						"stats",
+						"commonallplayers"
+					],
+					"query": [
+						{
+							"key": "LeagueID",
+							"value": "00",
+							"description": "Always 00"
+						},
+						{
+							"key": "Season",
+							"value": "2017-18"
+						},
+						{
+							"key": "IsOnlyCurrentSeason",
+							"value": "1"
+						}
+					]
+				},
+				"description": "Pulls basic player information\n* Params *\nLeagueID: 00\nSeason: YYYY-YY\nIsOnlyCurrentSeason: 1"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Defensive Stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stats.nba.com/stats/defensehub?LeagueID=00&Season=2017-18&SeasonType=Regular Season&PlayerOrTeam=Team&PlayerScope=All Players&GameScope=Season",
+					"protocol": "http",
+					"host": [
+						"stats",
+						"nba",
+						"com"
+					],
+					"path": [
+						"stats",
+						"defensehub"
+					],
+					"query": [
+						{
+							"key": "LeagueID",
+							"value": "00"
+						},
+						{
+							"key": "Season",
+							"value": "2017-18"
+						},
+						{
+							"key": "SeasonType",
+							"value": "Regular Season"
+						},
+						{
+							"key": "PlayerOrTeam",
+							"value": "Team"
+						},
+						{
+							"key": "PlayerScope",
+							"value": "All Players"
+						},
+						{
+							"key": "GameScope",
+							"value": "Season"
+						}
+					]
+				},
+				"description": "Pulls team or player defensive stats\n* Params *\nLeagueID: 00\nSeason: YYYY-YY\nSeasonType: Regular Season, Playoffs\nPlayerOrTeam: Player, Team\nPlayerScope: All Players\nGameScope: Season"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Draft Combine Stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stats.nba.com/stats/draftcombinestats?LeagueID=00&SeasonYear=2017-18",
+					"protocol": "http",
+					"host": [
+						"stats",
+						"nba",
+						"com"
+					],
+					"path": [
+						"stats",
+						"draftcombinestats"
+					],
+					"query": [
+						{
+							"key": "LeagueID",
+							"value": "00"
+						},
+						{
+							"key": "SeasonYear",
+							"value": "2017-18"
+						}
+					]
+				},
+				"description": "Pulls all draft picks and stats surrounding them\n* Params *\nLeagueID: 00\nSeasonYear: YYYY-YY"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Draft History",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stats.nba.com/stats/drafthistory?LeagueID=00&TeamID=1610612738",
+					"protocol": "http",
+					"host": [
+						"stats",
+						"nba",
+						"com"
+					],
+					"path": [
+						"stats",
+						"drafthistory"
+					],
+					"query": [
+						{
+							"key": "LeagueID",
+							"value": "00"
+						},
+						{
+							"key": "TeamID",
+							"value": "1610612738"
+						}
+					]
+				},
+				"description": "Pulls a history of draft picks\n*Params*\nLeagueID: 00\nTeamID: 1610612738\nSeason: YYYY"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Franchise History",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stats.nba.com/stats/franchisehistory?LeagueID=00",
+					"protocol": "http",
+					"host": [
+						"stats",
+						"nba",
+						"com"
+					],
+					"path": [
+						"stats",
+						"franchisehistory"
+					],
+					"query": [
+						{
+							"key": "LeagueID",
+							"value": "00"
+						}
+					]
+				},
+				"description": "Pulls a teams franchise history\n*Params*\nLeagueID: 00"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Franchise Leaders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stats.nba.com/stats/franchiseleaders?TeamID=1610612738&LeagueID=00",
+					"protocol": "http",
+					"host": [
+						"stats",
+						"nba",
+						"com"
+					],
+					"path": [
+						"stats",
+						"franchiseleaders"
+					],
+					"query": [
+						{
+							"key": "TeamID",
+							"value": "1610612738"
+						},
+						{
+							"key": "LeagueID",
+							"value": "00"
+						}
+					]
+				},
+				"description": "Pulls franchise leaders in pts, ast, reb, blk, stl\n*Params*\nLeagueID: 00\nTeamID: 1610612738"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Stats Homepage",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stats.nba.com/stats/homepagev2?StatType=Traditional&LeagueID=00&Season=2017-18&SeasonType=Regular Season&PlayerOrTeam=Team&GameScope=Season&PlayerScope=All Players",
+					"protocol": "http",
+					"host": [
+						"stats",
+						"nba",
+						"com"
+					],
+					"path": [
+						"stats",
+						"homepagev2"
+					],
+					"query": [
+						{
+							"key": "StatType",
+							"value": "Traditional",
+							"description": "Advanced, Tracking"
+						},
+						{
+							"key": "LeagueID",
+							"value": "00"
+						},
+						{
+							"key": "Season",
+							"value": "2017-18",
+							"description": "YYYY"
+						},
+						{
+							"key": "SeasonType",
+							"value": "Regular Season",
+							"description": "Playoffs, All Star, Pre Season. Note: Other values might not work"
+						},
+						{
+							"key": "PlayerOrTeam",
+							"value": "Team",
+							"description": "Team, Player"
+						},
+						{
+							"key": "GameScope",
+							"value": "Season"
+						},
+						{
+							"key": "PlayerScope",
+							"value": "All Players"
+						}
+					]
+				},
+				"description": "Pulls stat leaders from the nba homepage\n*Params*\nLeagueID: 00\nSeason: YYYY-YY\nSeasonType: Regular Season\nGameScope: Season\nPlayerScope: All Players\nPlayerOrTeam: Team,Player\nStatType: Traditional, Advanced,Tracking"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA League Game Log",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stats.nba.com/stats/leaguegamelog?LeagueID=00&PlayerOrTeam=P&Season=2017-18&SeasonType=Regular Season&Sorter=DATE&Direction=ASC&DateFrom=&DateTo=",
+					"protocol": "http",
+					"host": [
+						"stats",
+						"nba",
+						"com"
+					],
+					"path": [
+						"stats",
+						"leaguegamelog"
+					],
+					"query": [
+						{
+							"key": "LeagueID",
+							"value": "00"
+						},
+						{
+							"key": "PlayerOrTeam",
+							"value": "P",
+							"description": "T,P"
+						},
+						{
+							"key": "Season",
+							"value": "2017-18",
+							"description": "YYYY-YY"
+						},
+						{
+							"key": "SeasonType",
+							"value": "Regular Season",
+							"description": "Playoffs, All Star, Pre Season. Note: Other values might not work"
+						},
+						{
+							"key": "Sorter",
+							"value": "DATE"
+						},
+						{
+							"key": "Direction",
+							"value": "ASC",
+							"description": "ASC,DESC"
+						},
+						{
+							"key": "DateFrom",
+							"value": "",
+							"description": "MM/DD/YYYY"
+						},
+						{
+							"key": "DateTo",
+							"value": "",
+							"description": "MM/DD/YYYY"
+						}
+					]
+				},
+				"description": "Pulls game logs including game stats\n"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Player Stats Sorted by League Leaders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stats.nba.com/stats/leagueleaders?LeagueID=00&PerMode=Per48&StatCategory=PTS&Season=2017-18&Scope=S&SeasonType=Regular Season",
+					"protocol": "http",
+					"host": [
+						"stats",
+						"nba",
+						"com"
+					],
+					"path": [
+						"stats",
+						"leagueleaders"
+					],
+					"query": [
+						{
+							"key": "LeagueID",
+							"value": "00"
+						},
+						{
+							"key": "PerMode",
+							"value": "Per48",
+							"description": "PerGame,Per48,Totals"
+						},
+						{
+							"key": "StatCategory",
+							"value": "PTS",
+							"description": "PTS,MIN,OREB,DREB,REB,AST,STL,BLK,TOV,EFF. What do sort by"
+						},
+						{
+							"key": "Season",
+							"value": "2017-18",
+							"description": "YYYY-YY"
+						},
+						{
+							"key": "Scope",
+							"value": "S",
+							"description": "S, Rookies"
+						},
+						{
+							"key": "SeasonType",
+							"value": "Regular Season"
+						}
+					]
+				},
+				"description": "Pulls all player stat totals, etc and sorts by a selected category"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Player Awards",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stats.nba.com/stats/playerawards?PlayerID=201935",
+					"protocol": "http",
+					"host": [
+						"stats",
+						"nba",
+						"com"
+					],
+					"path": [
+						"stats",
+						"playerawards"
+					],
+					"query": [
+						{
+							"key": "PlayerID",
+							"value": "201935"
+						}
+					]
+				},
+				"description": "Pulls all player awards"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Player Bio Stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stats.nba.com/stats/leaguedashplayerbiostats?LeagueID=00&PerMode=PerGame&Season=2017-18&SeasonType=Regular Season",
+					"protocol": "http",
+					"host": [
+						"stats",
+						"nba",
+						"com"
+					],
+					"path": [
+						"stats",
+						"leaguedashplayerbiostats"
+					],
+					"query": [
+						{
+							"key": "LeagueID",
+							"value": "00"
+						},
+						{
+							"key": "PerMode",
+							"value": "PerGame",
+							"description": "PerGame,Per100Possessions,Per36,Per40,Per48,PerMinute,PerPossession,PerPlay,MinutePer,Totals"
+						},
+						{
+							"key": "Season",
+							"value": "2017-18",
+							"description": "YYYY-YY"
+						},
+						{
+							"key": "SeasonType",
+							"value": "Regular Season",
+							"description": "Playoffs,Pre Season, All Star"
+						}
+					]
+				},
+				"description": "Pulls player biography information and stat percentages based on mode selected"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Player Career Stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stats.nba.com/stats/playercareerstats?PlayerID=201143&PerMode=Totals",
+					"protocol": "http",
+					"host": [
+						"stats",
+						"nba",
+						"com"
+					],
+					"path": [
+						"stats",
+						"playercareerstats"
+					],
+					"query": [
+						{
+							"key": "PlayerID",
+							"value": "201143"
+						},
+						{
+							"key": "PerMode",
+							"value": "Totals",
+							"description": "Totals, PerGame, Per36"
+						}
+					]
+				},
+				"description": "Pulls player career stats: totals, pergame, per36"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Player Defense Stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stats.nba.com/stats/leaguedashptdefend?LeagueID=00&PerMode=PerGame&DefenseCategory=Overall&SeasonType=Regular Season&Season=2017-18",
+					"protocol": "http",
+					"host": [
+						"stats",
+						"nba",
+						"com"
+					],
+					"path": [
+						"stats",
+						"leaguedashptdefend"
+					],
+					"query": [
+						{
+							"key": "LeagueID",
+							"value": "00"
+						},
+						{
+							"key": "PerMode",
+							"value": "PerGame",
+							"description": "PerGame, Totals"
+						},
+						{
+							"key": "DefenseCategory",
+							"value": "Overall",
+							"description": "^((Overall)|(3 Pointers)|(2 Pointers)|(Less Than 6Ft)|(Less Than 10Ft)|(Greater Than 15Ft))?$"
+						},
+						{
+							"key": "SeasonType",
+							"value": "Regular Season",
+							"description": "^(Regular Season)|(Pre Season)|(Playoffs)|(All Star)$; Required"
+						},
+						{
+							"key": "Season",
+							"value": "2017-18",
+							"description": "YYYY-YY"
+						}
+					]
+				},
+				"description": "Pulls player defense stats based on defense category"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Player Game Log",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stats.nba.com/stats/playergamelog?PlayerID=1627759&Season=2017-18&SeasonType=Regular Season",
+					"protocol": "http",
+					"host": [
+						"stats",
+						"nba",
+						"com"
+					],
+					"path": [
+						"stats",
+						"playergamelog"
+					],
+					"query": [
+						{
+							"key": "PlayerID",
+							"value": "1627759"
+						},
+						{
+							"key": "Season",
+							"value": "2017-18",
+							"description": "YYYY-YY"
+						},
+						{
+							"key": "SeasonType",
+							"value": "Regular Season"
+						}
+					]
+				},
+				"description": "Pulls game logs by player"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Hustle Defense Stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stats.nba.com/stats/leaguehustlestatsplayer?LeagueID=00&Season=2017-18&SeasonType=Regular Season&PerMode=Per36&TeamID=",
+					"protocol": "http",
+					"host": [
+						"stats",
+						"nba",
+						"com"
+					],
+					"path": [
+						"stats",
+						"leaguehustlestatsplayer"
+					],
+					"query": [
+						{
+							"key": "LeagueID",
+							"value": "00"
+						},
+						{
+							"key": "Season",
+							"value": "2017-18",
+							"description": "YYYY-YY"
+						},
+						{
+							"key": "SeasonType",
+							"value": "Regular Season",
+							"description": "^(Regular Season)|(Pre Season)|(Playoffs)|(All Star)$"
+						},
+						{
+							"key": "PerMode",
+							"value": "Per36",
+							"description": "^(Totals)|(PerGame)|(Per48)|(Per40)|(Per36)|(PerMinute)$"
+						},
+						{
+							"key": "TeamID",
+							"value": ""
+						}
+					]
+				},
+				"description": "Pulls hustle and defensive stats on players"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Hustle Defense Leader Stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stats.nba.com/stats/leaguehustlestatsplayerleaders?Season=2017-18&SeasonType=Regular Season&LeagueID=00&PerMode=PerGame",
+					"protocol": "http",
+					"host": [
+						"stats",
+						"nba",
+						"com"
+					],
+					"path": [
+						"stats",
+						"leaguehustlestatsplayerleaders"
+					],
+					"query": [
+						{
+							"key": "Season",
+							"value": "2017-18"
+						},
+						{
+							"key": "SeasonType",
+							"value": "Regular Season"
+						},
+						{
+							"key": "LeagueID",
+							"value": "00"
+						},
+						{
+							"key": "PerMode",
+							"value": "PerGame",
+							"description": "^(Totals)|(PerGame)|(Per48)|(Per40)|(Per36)|(PerMinute)$"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Common Player Info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stats.nba.com/stats/commonplayerinfo?PlayerID=201143",
+					"protocol": "http",
+					"host": [
+						"stats",
+						"nba",
+						"com"
+					],
+					"path": [
+						"stats",
+						"commonplayerinfo"
+					],
+					"query": [
+						{
+							"key": "PlayerID",
+							"value": "201143"
+						}
+					]
+				},
+				"description": "Pulls basic player info."
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Player Career Stats v2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stats.nba.com/stats/playerprofilev2?PerMode=PerGame&PlayerID=201143",
+					"protocol": "http",
+					"host": [
+						"stats",
+						"nba",
+						"com"
+					],
+					"path": [
+						"stats",
+						"playerprofilev2"
+					],
+					"query": [
+						{
+							"key": "PerMode",
+							"value": "PerGame",
+							"description": "^(Totals)|(PerGame)|(Per36)$"
+						},
+						{
+							"key": "PlayerID",
+							"value": "201143"
+						}
+					]
+				},
+				"description": "PerMode\nPlayerID"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Player Shot Stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stats.nba.com/stats/leaguedashplayerptshot?LeagueID=00&PerMode=PerGame&Season=2017-18&SeasonType=Regular Season",
+					"protocol": "http",
+					"host": [
+						"stats",
+						"nba",
+						"com"
+					],
+					"path": [
+						"stats",
+						"leaguedashplayerptshot"
+					],
+					"query": [
+						{
+							"key": "LeagueID",
+							"value": "00"
+						},
+						{
+							"key": "PerMode",
+							"value": "PerGame",
+							"description": "^(Totals)|(PerGame)$"
+						},
+						{
+							"key": "Season",
+							"value": "2017-18"
+						},
+						{
+							"key": "SeasonType",
+							"value": "Regular Season"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Team Defense Stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stats.nba.com/stats/leaguedashptteamdefend?LeagueID=00&PerMode=PerGame&Season=2017-18&SeasonType=Regular Season&DefenseCategory=Overall",
+					"protocol": "http",
+					"host": [
+						"stats",
+						"nba",
+						"com"
+					],
+					"path": [
+						"stats",
+						"leaguedashptteamdefend"
+					],
+					"query": [
+						{
+							"key": "LeagueID",
+							"value": "00"
+						},
+						{
+							"key": "PerMode",
+							"value": "PerGame",
+							"description": "^(Totals)|(PerGame)$"
+						},
+						{
+							"key": "Season",
+							"value": "2017-18"
+						},
+						{
+							"key": "SeasonType",
+							"value": "Regular Season"
+						},
+						{
+							"key": "DefenseCategory",
+							"value": "Overall",
+							"description": "^((Overall)|(3 Pointers)|(2 Pointers)|(Less Than 6Ft)|(Less Than 10Ft)|(Greater Than 15Ft))?$"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Team Details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stats.nba.com/stats/teamdetails?TeamID=1610612738",
+					"protocol": "http",
+					"host": [
+						"stats",
+						"nba",
+						"com"
+					],
+					"path": [
+						"stats",
+						"teamdetails"
+					],
+					"query": [
+						{
+							"key": "TeamID",
+							"value": "1610612738"
+						}
+					]
+				},
+				"description": "TeamID"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Team Info Common",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stats.nba.com/stats/teaminfocommon?TeamID=1610612738&LeagueID=00",
+					"protocol": "http",
+					"host": [
+						"stats",
+						"nba",
+						"com"
+					],
+					"path": [
+						"stats",
+						"teaminfocommon"
+					],
+					"query": [
+						{
+							"key": "TeamID",
+							"value": "1610612738"
+						},
+						{
+							"key": "LeagueID",
+							"value": "00"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Team Game Log",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stats.nba.com/stats/teamgamelog?TeamID=1610612738&Season=2017-18&SeasonType=Regular Season",
+					"protocol": "http",
+					"host": [
+						"stats",
+						"nba",
+						"com"
+					],
+					"path": [
+						"stats",
+						"teamgamelog"
+					],
+					"query": [
+						{
+							"key": "TeamID",
+							"value": "1610612738"
+						},
+						{
+							"key": "Season",
+							"value": "2017-18"
+						},
+						{
+							"key": "SeasonType",
+							"value": "Regular Season"
+						}
+					]
+				},
+				"description": "TeamID\nSeason YYYY-YY\nSeasonType Regular Season | Playoffs"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Team Hustle Defense Stats ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stats.nba.com/stats/leaguehustlestatsteam?LeagueID=00&Season=2017-18&SeasonType=Regular Season&PerMode=PerGame",
+					"protocol": "http",
+					"host": [
+						"stats",
+						"nba",
+						"com"
+					],
+					"path": [
+						"stats",
+						"leaguehustlestatsteam"
+					],
+					"query": [
+						{
+							"key": "LeagueID",
+							"value": "00"
+						},
+						{
+							"key": "Season",
+							"value": "2017-18"
+						},
+						{
+							"key": "SeasonType",
+							"value": "Regular Season"
+						},
+						{
+							"key": "PerMode",
+							"value": "PerGame",
+							"description": "^(Totals)|(PerGame)|(Per48)|(Per40)|(Per36)|(PerMinute)$"
+						}
+					]
+				},
+				"description": "LeagueID 00\nSeason YYYY-YY\nSeasonType Regular Season | Playoffs\nPerMode ^(Totals)|(PerGame)|(Per48)|(Per40)|(Per36)|(PerMinute)$"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Team Hustle Team Leads",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stats.nba.com/stats/leaguehustlestatsteamleaders?LeagueID=00&Season=2017-18&SeasonType=Regular Season&PerMode=PerGame",
+					"protocol": "http",
+					"host": [
+						"stats",
+						"nba",
+						"com"
+					],
+					"path": [
+						"stats",
+						"leaguehustlestatsteamleaders"
+					],
+					"query": [
+						{
+							"key": "LeagueID",
+							"value": "00"
+						},
+						{
+							"key": "Season",
+							"value": "2017-18"
+						},
+						{
+							"key": "SeasonType",
+							"value": "Regular Season"
+						},
+						{
+							"key": "PerMode",
+							"value": "PerGame",
+							"description": "^(Totals)|(PerGame)|(Per48)|(Per40)|(Per36)|(PerMinute)$"
+						}
+					]
+				},
+				"description": "LeagueID 00\nSeason YYYY-YY\nSeasonType Regular Season | Playoffs\nPerMode ^(Totals)|(PerGame)|(Per48)|(Per40)|(Per36)|(PerMinute)$"
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Team Full Roster",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stats.nba.com/stats/commonteamroster?Season=2017-18&TeamID=1610612747",
+					"protocol": "http",
+					"host": [
+						"stats",
+						"nba",
+						"com"
+					],
+					"path": [
+						"stats",
+						"commonteamroster"
+					],
+					"query": [
+						{
+							"key": "Season",
+							"value": "2017-18"
+						},
+						{
+							"key": "TeamID",
+							"value": "1610612747"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NBA Team Shot Stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stats.nba.com/stats/leaguedashteamptshot?LeagueID=00&PerMode=PerGame&Season=2017-18&SeasonType=Regular Season",
+					"protocol": "http",
+					"host": [
+						"stats",
+						"nba",
+						"com"
+					],
+					"path": [
+						"stats",
+						"leaguedashteamptshot"
+					],
+					"query": [
+						{
+							"key": "LeagueID",
+							"value": "00"
+						},
+						{
+							"key": "PerMode",
+							"value": "PerGame",
+							"description": "^(Totals)|(PerGame)$"
+						},
+						{
+							"key": "Season",
+							"value": "2017-18"
+						},
+						{
+							"key": "SeasonType",
+							"value": "Regular Season"
+						}
+					]
+				},
+				"description": "LeagueID 00\nPerMode ^(Totals)|(PerGame)$\nSeason YYYY-YY\nSeasonType Regular Season | Playoffs"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
